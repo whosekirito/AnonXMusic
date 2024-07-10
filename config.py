@@ -30,9 +30,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-GBAN_CHAT = getenv(
-    "GBAN_CHAT",
-    "https://t.me/Cutie_Gban",
+UPSTREAM_REPO = getenv(
+    "UPSTREAM_REPO",
+    "https://github.com/HackxTrick/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -41,6 +41,7 @@ GIT_TOKEN = getenv(
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GAURAV_BOTS")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/INFINITE_EMPIRE")
+GBAN_CHAT = getenv("GBAN_CHAT", "https://t.me/Cutie_Gban")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
